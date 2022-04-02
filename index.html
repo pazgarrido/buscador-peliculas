@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Api Movies</title>
     <script src="https://unpkg.com/vue@next"></script>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <div id="app">
-        <h1 style="text-align: center;">{{title}}</h1>
+        <h1>{{title}}</h1>
         <hr>
         <form @submit.prevent="getMovie">
             <label>
