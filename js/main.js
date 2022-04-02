@@ -17,7 +17,7 @@ const app = Vue.createApp({
 
             console.log(search);
 
-            const data = await fetch (`http://www.omdbapi.com/?i=tt3896198&apikey=a117983e&t=${search}`);
+            const data = await fetch (`https://www.omdbapi.com/?i=tt3896198&apikey=a117983e&t=${search}`);
 
             const jsonData = await data.json();
 
