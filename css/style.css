@@ -22,12 +22,17 @@ form label{
 
 	font-weight:bold;
 	display:inline-block;
+	
 }
+
+form input[type="text"]{
+	margin-left: 5px;
+} 
 
 form input[type="submit"]{
 	width:100%;
 	padding:8px 16px;
-	margin-top:32px;
+	margin-top:25px;
 	border:2px solid #000;
 	border-radius:5px;
 	display:block;
